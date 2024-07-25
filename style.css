@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    background: #FDD0FD;
+}
+
+.mainWrapper {
+    width: 40%;
+    margin: 50px auto;
+}
+
+.accordion {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon.active {
+    transform: rotate(180deg);
+}
+
+.answer {
+    height: 0px;
+    overflow: hidden;
+    padding-top: 9px;
+}
+
+.answer.active {
+    height: fit-content;
+}
